@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+
+    <div class="images_div">
+      <img src="./images/logo.svg" alt="logo">
+      <div class="icons">
+        <div class="img_box">
+        <img src="./images/icon-document.svg" alt="document">
+      </div>
+      <div class="img_box">
+        <img src="./images/icon-folder.svg" alt="folder">
+      </div>
+      <div class="img_box">
+        <img src="./images/icon-upload.svg" alt="upload">
+      </div>
+      </div>
+    </div>
+<div class="slider_div">
+  <p>
+    You’ve used <span class="dataselect">0 GB</span> of your storage
+  </p>
+  
+<div class="slidecontainer">
+  <input type="range" name="gbdata" id="gbdata" class="gbdata" min="0" max="1000" value="0" autocomplete="off">
+</div>
+<div class="ranges">
+  <p>0 GB</p>
+  <p>1000GB</p>
+</div>
+<div class="remain_data">
+  <p> <span class="left_data">1000</span>GB LEFT</p>
+</div>
+</div>
+</main>
+</body>
+<script src="./script.js"></script>
+</html>
